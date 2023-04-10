@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #10111e;
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-bg-color { background-color: #1a1c2d; }
+
+li, option { background-color: #141522; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
