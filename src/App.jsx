@@ -12,7 +12,7 @@ function App() {
 
   return (
     <BrandContextProvider>
-      <PartContextProvider>
+      {/* <PartContextProvider> */}
         <Container className="mt-5">
           <Row xs={1} md={2} className="g-5">
 
@@ -20,11 +20,11 @@ function App() {
               <Brand />
             </Col>
 
-            <Col>
+            {/* <Col>
               <Part />
             </Col>
 
-            {/* <Col>
+            <Col>
               <Stock />
             </Col>
 
@@ -39,7 +39,7 @@ function App() {
           </Row>
           
         </Container>
-      </PartContextProvider>
+      {/* </PartContextProvider> */}
     </BrandContextProvider>
   )
 }
